@@ -38,39 +38,6 @@
 
 > At the beginning of the program, the user will be prompted with the main menu, presenting a list of options for the user. On the first run, it will also prompt if information should be pulled from a file saved to the user's machine. Otherwise, five options will be presented. If the user chooses to add a task, they will be prompted to fill in the appropriate information of each task (Title, Date, Description, Category), and then it will be added to their current list. Additionally, the user may choose to edit a task, which they will be similarly prompted to identify which task to edit, and what aspect of the task they would like to edit. If a user decided to delete a task, they will also be prompted to identify the correct task to delete and accept an additional confirmation message to ensure they do not make a mistake. If choosing to complete a task, a similar identification process will be prompted and confirmation message presented. Lastly, the user will receive the option to view their tasks, and choose the way in which they want to view them- whether sorted by upcoming date, the category they're in, or viewing past (completed) tasks. After they are done, the program will terminate after any changed information will be saved to the file if they had provided a file previously. 
 
-### Screen Layouts
-> When user open this project the first page would be the Menu page, with different options(picture below is the main menu):
-> ![SL](https://github.com/cs100/final-project-alamp009-varor004-xwang298-jmin045/blob/master/IMG/SL-Menu.jpg?raw=true)
->
-> 
->
-> When user choose 1,which is ADD TASK, the screen would be below:
-> ![SL-ADD](https://github.com/cs100/final-project-alamp009-varor004-xwang298-jmin045/blob/master/IMG/SL-Add%20Task.jpg?raw=true)
->
-> 
->
-> When user choose 2,which is VIEW TASK, the screen would be below:
-> ![SL-VIEW](https://github.com/cs100/final-project-alamp009-varor004-xwang298-jmin045/blob/master/IMG/SL-View.jpg?raw=true)
->
-> 
->
-> When user choose 3,which is EDIT TASK, the screen would be below:
-> ![SL-EDIT](https://github.com/cs100/final-project-alamp009-varor004-xwang298-jmin045/blob/master/IMG/SL-Edit.jpg?raw=true)
->
-> 
->
-> When user choose 4,which is DELETE TASK, the screen would be below:
-> ![SL-DELETE](https://github.com/cs100/final-project-alamp009-varor004-xwang298-jmin045/blob/master/IMG/SL-Delete.jpg?raw=true)
->
-> 
->
-> When user choose 5,which is COMPLETE TASK, the screen would be below:
-> ![SL-COMPLETE](https://github.com/cs100/final-project-alamp009-varor004-xwang298-jmin045/blob/master/IMG/SL-Complete.jpg?raw=true)
->
-> 
->
-> When user choose 6,which is QUIT, the program end, nothing show on the screen.
-
 ## Class Diagram
 > By utilizing the base epics and user stories our team had decided on for the core features of our program, we have created the following UML Diagram to serve as a basis for implementation. As more user stories arise, and implementation begins, the UML Diagram is subject to change. 
 > ![image](https://github.com/cs100/final-project-alamp009-varor004-xwang298-jmin045/assets/147086163/fc64bb6a-8dc5-48a8-8704-150dc8a68085)
